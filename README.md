@@ -1,6 +1,6 @@
 This is a sample application using Ionic 3 and Leaflet with Leaflet. TileLayer. MBTiles.
 I modified the [Leaflet.TileLayer.MBTiles](https://www.npmjs.com/package/Leaflet.TileLayer.MBTiles) library to use it with Ionic on native mobile apps.
-I also modified the index.html since some script tag is required for the plugin.
+I also modified the index.html since some script tag is required by the plugin.
 
 
  ## Get it running
