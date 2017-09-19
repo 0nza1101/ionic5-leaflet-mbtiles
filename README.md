@@ -11,7 +11,7 @@ I also modified the index.html since some script tag is required by the plugin.
  * Run `ionic serve` in a terminal from the project root.
 
  ## How to use it
-```
+```typescript
 let mb = L.tileLayer.mbTiles('assets/tiles/countries-raster.mbtiles', {
   minZoom: 0,
   maxZoom: 8
