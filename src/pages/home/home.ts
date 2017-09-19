@@ -38,6 +38,14 @@ export class HomePage {
       maxZoom: 6
     }).addTo(this.map);
 
+    mb.on('databaseloaded', function(ev) {
+      console.info('MBTiles DB loaded', ev);
+    });
+    mb.on('databaseerror', function(ev) {
+      console.info('MBTiles DB error', ev);
+    });
+
+
   }
 
 }
