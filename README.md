@@ -1,26 +1,20 @@
-This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
+This is a sample application using Ionic 3 and Leaflet with Leaflet.TileLayer.MBTiles.
+I modified the Leaflet.TileLayer.MBTiles[https://www.npmjs.com/package/Leaflet.TileLayer.MBTiles] library to use it with Ionic on native mobile apps.
+I also modified the index.html since some script tag are required from the plugin.
 
-## How to use this template
 
-*This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/ionic-team/ionic2-app-base).
+ ## Get it running
+ * Clone this repository: `https://github.com/0nza1101/leaflet-velocity-ionic.git`.
+ * Run `npm install` from the project root.
+ * If you do not install the ionic CLI (`npm install cordova ionic -g`)
+ * Copy src/Leaflet.TileLayer.MBTiles.js to node_modules/Leaflet.TileLayer.MBTiles/ replace it.
+ * Run `ionic serve` in a terminal from the project root.
+ ****
 
-To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/ionic-team/ionic2-app-base).
-
-### With the Ionic CLI:
-
-Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
-
-```bash
-$ sudo npm install -g ionic cordova
-$ ionic start myBlank blank
+ ## How to use it
 ```
-
-Then, to run it, cd into `myBlank` and run:
-
-```bash
-$ ionic cordova platform add ios
-$ ionic cordova run ios
+let mb = L.tileLayer.mbTiles('assets/tiles/countries-raster.mbtiles', {
+  minZoom: 0,
+  maxZoom: 8
+}).addTo(this.map);
 ```
-
-Substitute ios for android if not on a Mac.
-
