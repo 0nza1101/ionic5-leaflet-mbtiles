@@ -1,5 +1,5 @@
 This is a sample application using Ionic 3 and Leaflet with Leaflet.TileLayer.MBTiles.
-Since I discovered a better version of [Leaflet.TileLayer.MBTiles](https://www.npmjs.com/package/Leaflet.TileLayer.MBTiles) called [leaflet-tilelayer-mbtiles]https://www.npmjs.com/package/leaflet-tilelayer-mbtiles I modified the lib to use it with Ionic 3 on native mobile apps (Android and iOS).
+Since I discovered a better version of [Leaflet.TileLayer.MBTiles](https://www.npmjs.com/package/Leaflet.TileLayer.MBTiles) called [leaflet-tilelayer-mbtiles](https://www.npmjs.com/package/leaflet-tilelayer-mbtiles) I modified the lib to use it with Ionic 3 on native mobile apps (Android and iOS).
 
 
  ## Get it running
