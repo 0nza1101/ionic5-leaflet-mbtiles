@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 
 import "leaflet";
-import 'Leaflet.TileLayer.MBTiles';
+import "leaflet-tilelayer-mbtiles";
 
 declare var L: any;
 
