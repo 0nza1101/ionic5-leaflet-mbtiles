@@ -30,7 +30,7 @@ Since I discovered a better version of [Leaflet.TileLayer.MBTiles](https://www.n
  I was forced to create two versions since iOS 9 did not allow local XMLHttpRequest.
  I know it's tricky to get this working for a specific platform, If u have a better solution don't hesitate to make a PR.
  
- If you are experiencing performance issues, consider to export mbtiles to png format using [mbutil](https://github.com/mapbox/mbutil)
+ If you are experiencing performance issues (mostly on old device), consider to export mbtiles to png format using [mbutil](https://github.com/mapbox/mbutil)
  and if the pngs are too big reduce png quality with [pngquant](https://pngquant.org/)
 
  ## How to use it
