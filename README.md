@@ -6,30 +6,10 @@ Since I discovered a better version of [Leaflet.TileLayer.MBTiles](https://www.n
  * Clone this repository: `https://github.com/0nza1101/ionic3-leaflet-mbtiles.git`.
  * Run `npm install` from the project root.
  * If you do not install the ionic CLI (`npm install cordova ionic -g`)
- * Copy `src/index-PLATFORM.ts` to `node_modules/leaflet-tilelayer-mbtiles/` and remove 'index.ts' then rename 'index-PLATFORM' to 'index.ts'.
- * For Android only Copy `src/index-Android.js` to `node_modules/leaflet-tilelayer-mbtiles/` and remove 'index.js' then rename 'index-Android' to 'index.js'.
- * For Android only change `node_modules/leaflet-tilelayer-mbtiles/tsconfig.json` to
- ```typescript
- {
-     "compilerOptions": {
-         "noImplicitAny": false,
-         "target": "es5",
-         "lib": [
-           "dom",
-           "es2015",
-           "es2015.promise"
-         ],
-         "module": "es2015",
-         "moduleResolution": "node"
-     }
- }
- ```
  * Run `ionic serve` in a terminal from the project root.
 
- Both of platform library are working inside browser.
- I was forced to create two versions since iOS 9 did not allow local XMLHttpRequest.
- I know it's tricky to get this working for a specific platform, If u have a better solution don't hesitate to make a PR.
- 
+ I was forced to create an updated npm package since iOS 9 did not allow local XMLHttpRequest.
+
  If you are experiencing performance issues (mostly on old device), consider to export mbtiles to png format using [mbutil](https://github.com/mapbox/mbutil)
  and if the pngs are too big reduce png quality with [pngquant](https://pngquant.org/)
 

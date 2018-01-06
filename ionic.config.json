@@ -1,5 +1,5 @@
 {
-  "name": "leaflet-mbtiles-ionic",
+  "name": "ionic3-leaflet-mbtiles",
   "app_id": "",
   "type": "ionic-angular",
   "integrations": {
