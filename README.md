@@ -1,7 +1,8 @@
 This is a sample application using Ionic 3 and Leaflet with Leaflet.TileLayer.MBTiles.
 
-I made a custom npm package of Leaflet.TileLayer.MBTiles [leaflet-tilelayer-mbtiles-ts](https://www.npmjs.com/package/leaflet-tilelayer-mbtiles-ts) to make it compatible with mobile devices(Andoid, iOS).
+I made a custom npm package of Leaflet.TileLayer.MBTiles called [leaflet-tilelayer-mbtiles-ts](https://www.npmjs.com/package/leaflet-tilelayer-mbtiles-ts) to make it compatible with mobile devices(Andoid, iOS).
 
+`npm i leaflet-tilelayer-mbtiles-ts --save`
 
  ## Get it running
  * Clone this repository: `https://github.com/0nza1101/ionic3-leaflet-mbtiles.git`.
