@@ -4,7 +4,7 @@ I made a custom npm package of Leaflet.TileLayer.MBTiles called [leaflet-tilelay
 
 `npm i leaflet-tilelayer-mbtiles-ts --save`
 
-<img src="https://user-images.githubusercontent.com/13056641/34644747-c5864a32-f33c-11e7-8608-ea4565c12952.png" width="100" height="100">
+<img src="https://user-images.githubusercontent.com/13056641/34644747-c5864a32-f33c-11e7-8608-ea4565c12952.png" width="300" height="300">
 
  ## Get it running
  * Clone this repository: `https://github.com/0nza1101/ionic3-leaflet-mbtiles.git`.
