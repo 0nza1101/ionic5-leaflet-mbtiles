@@ -3,8 +3,10 @@ This is a sample application using Ionic 3 and Leaflet with Leaflet.TileLayer.MB
 I made a custom npm package of Leaflet.TileLayer.MBTiles called [leaflet-tilelayer-mbtiles-ts](https://www.npmjs.com/package/leaflet-tilelayer-mbtiles-ts) to make it compatible with mobile devices(Andoid, iOS).
 
 `npm i leaflet-tilelayer-mbtiles-ts --save`
-
-<img src="https://user-images.githubusercontent.com/13056641/34644747-c5864a32-f33c-11e7-8608-ea4565c12952.png" width="300" height="500">
+ 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/13056641/34644747-c5864a32-f33c-11e7-8608-ea4565c12952.png" width="300" height="500">
+</p>
 
  ## Get it running
  * Clone this repository: `https://github.com/0nza1101/ionic3-leaflet-mbtiles.git`.
