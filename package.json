@@ -8,8 +8,11 @@
     "clean": "ionic-app-scripts clean",
     "build": "ionic-app-scripts build",
     "lint": "ionic-app-scripts lint",
-    "ionic:build": "ionic-app-scripts build",
-    "ionic:serve": "ionic-app-scripts serve"
+    "ionic:build": "node --max-old-space-size=8192 ./node_modules/@ionic/app-scripts/bin/ionic-app-scripts.js build",
+    "ionic:serve": "node --max-old-space-size=8192 ./node_modules/@ionic/app-scripts/bin/ionic-app-scripts.js serve"
+  },
+  "config": {
+    "ionic_source_map_type": "cheap-source-map"
   },
   "dependencies": {
     "@angular/common": "^4.4.6",
@@ -35,7 +38,7 @@
     "ionic-plugin-keyboard": "^2.2.1",
     "ionicons": "^3.0.0",
     "leaflet": "^1.2.0",
-    "leaflet-tilelayer-mbtiles-ts": "^1.4.7",
+    "leaflet-tilelayer-mbtiles-ts": "^1.4.8",
     "promise-polyfill": "^7.0.0",
     "rxjs": "5.4.0",
     "sw-toolbox": "^3.6.0",
