@@ -25,6 +25,8 @@
     "@ionic-native/status-bar": "^5.0.0",
     "@ionic/angular": "^5.0.0",
     "core-js": "^2.5.4",
+    "leaflet": "^1.6.0",
+    "leaflet-tilelayer-mbtiles-ts": "^1.5.2",
     "rxjs": "~6.5.1",
     "tslib": "^1.9.0",
     "zone.js": "~0.9.1"
@@ -39,6 +41,7 @@
     "@ionic/angular-toolkit": "^2.1.1",
     "@types/jasmine": "~3.3.8",
     "@types/jasminewd2": "~2.0.3",
+    "@types/leaflet": "^1.5.12",
     "@types/node": "~8.9.4",
     "codelyzer": "^5.0.0",
     "jasmine-core": "~3.4.0",
@@ -52,6 +55,11 @@
     "ts-node": "~7.0.0",
     "tslint": "~5.15.0",
     "typescript": "~3.4.3"
+  },
+  "browser": {
+    "fs": false,
+    "path": false,
+    "os": false
   },
   "description": "An Ionic project"
 }
