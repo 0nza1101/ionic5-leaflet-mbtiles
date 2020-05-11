@@ -1,0 +1,7 @@
+{
+  "name": "ionic4-leaflet-mbtiles",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
