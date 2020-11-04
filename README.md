@@ -1,4 +1,4 @@
-This is a sample application using Ionic 4 and Leaflet with Leaflet.TileLayer.MBTiles.
+This is a sample application using Ionic 5 and Leaflet with Leaflet.TileLayer.MBTiles.
 
 I made a custom npm package of Leaflet.TileLayer.MBTiles called leaflet-tilelayer-mbtiles-ts to make it compatible with mobile devices(Andoid, iOS).
 
@@ -9,7 +9,7 @@ I made a custom npm package of Leaflet.TileLayer.MBTiles called leaflet-tilelaye
 </p>
 
 ## Get it running
-* Clone this repository: https://github.com/0nza1101/ionic4-leaflet-mbtiles.git.
+* Clone this repository.
 * Run npm install from the project root.
 * If you do not install the Ionic CLI (npm install ionic -g)
 * Run ionic serve in a terminal from the project root.
